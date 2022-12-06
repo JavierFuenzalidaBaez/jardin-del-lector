@@ -18,9 +18,11 @@ const NewsContainer = () => {
       alignItems="center"
       gap={8}
     >
-      {books?.map(item => (
-        <CardBook key={item.url} title={item.title} url={item.url} />
-      ))}
+      {books
+        ?.filter((item, index) => index <= 2)
+        .map(book => (
+          <CardBook key={book.url} title={book.title} url={book.url} />
+        ))}
     </Flex>
   );
 };

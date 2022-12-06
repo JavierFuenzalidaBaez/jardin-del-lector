@@ -5,6 +5,7 @@ import { Navigate } from 'react-router-dom';
 //routes
 import homeRoutes from 'modules/Home/routes';
 import booksRoutes from 'modules/Books/routes';
+import businessRoutes from 'modules/Business/routes';
 
 //components
 import Layout from 'components/Layout';
@@ -21,6 +22,7 @@ export const privateRouter = [
       { path: '404', element: <NotFound /> }, */
       ...homeRoutes,
       ...booksRoutes,
+      ...businessRoutes,
     ],
   },
 ];

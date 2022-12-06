@@ -6,7 +6,7 @@ import Navigation from 'components/Navigation';
 
 const Layout = () => {
   return (
-    <Box h="100vh" px={10}>
+    <Box h="100vh">
       <Navigation />
       <Spacer py={2} />
       <Outlet />

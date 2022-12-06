@@ -1,8 +1,12 @@
-import { Box, Heading, Image, Spacer } from '@chakra-ui/react';
+import { Box, Text, Image, Spacer } from '@chakra-ui/react';
 
 const CardBook = ({ title, url }) => {
   return (
     <Box
+      w={{
+        base: 300,
+        lg: 300,
+      }}
       p={5}
       bg="bluishBlack.500"
       borderRadius={20}
@@ -18,9 +22,9 @@ const CardBook = ({ title, url }) => {
         alt="portada libro"
       />
       <Spacer py={2} />
-      <Heading size="xl" fontWeight="bold">
+      <Text size="sm" fontWeight="bold" noOfLines={1}>
         {title}
-      </Heading>
+      </Text>
     </Box>
   );
 };
