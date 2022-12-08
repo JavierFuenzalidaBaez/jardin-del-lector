@@ -7,11 +7,6 @@ import InstagramImg from 'assets/images/icono-instagram.png';
 const ContactInfo = () => {
   return (
     <Flex
-      w={{
-        base: '100%',
-        md: '50%',
-        lg: '30%',
-      }}
       ml={{
         base: 0,
         lg: 'auto',
@@ -22,7 +17,7 @@ const ContactInfo = () => {
         xs: 'center',
         sm: 'center',
         md: 'center',
-        lg: 'center',
+        lg: 'start',
       }}
       gap={8}
     >

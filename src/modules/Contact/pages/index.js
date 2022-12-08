@@ -6,6 +6,7 @@ import Title from 'components/Title';
 import ContainerBox from 'components/ContainerBox';
 import Banner from '../components/Banner';
 import ContactInfo from '../components/ContactInfo';
+import ContactForm from '../components/ContactForm';
 
 const Books = () => {
   useEffect(() => {
@@ -24,7 +25,24 @@ const Books = () => {
       </GridItem>
       <GridItem>
         <ContainerBox size="xl">
-          <ContactInfo />
+          <Grid
+            templateColumns={{
+              base: 'repeat(1, minmax(0, 1fr))',
+              lg: 'repeat(2, minmax(0, 1fr))',
+            }}
+            gap={{
+              base: 2,
+              sm: 10,
+              lg: 2,
+            }}
+          >
+            <GridItem>
+              <ContactForm />
+            </GridItem>
+            <GridItem>
+              <ContactInfo />
+            </GridItem>
+          </Grid>
         </ContainerBox>
       </GridItem>
     </Grid>
