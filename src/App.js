@@ -5,7 +5,7 @@ import './themes/styles.css';
 
 //router
 import Router from 'routes';
-import { BrowserRouter } from 'react-router-dom';
+import { HashRouter } from 'react-router-dom';
 
 //components
 import BackdropLoad from 'components/BackdropLoad';
@@ -13,11 +13,11 @@ import BackdropLoad from 'components/BackdropLoad';
 function App() {
   return (
     <ChakraProvider theme={light}>
-      <BrowserRouter>
+      <HashRouter>
         <Suspense fallback={<BackdropLoad />}>
           <Router />
         </Suspense>
-      </BrowserRouter>
+      </HashRouter>
     </ChakraProvider>
   );
 }
