@@ -1,5 +1,8 @@
 import { Flex, Image } from '@chakra-ui/react';
 
+//assets
+import BannerImg from 'assets/images/fondo-biblioteca-min.jpg';
+
 const Banner = () => {
   return (
     <Flex
@@ -7,11 +10,7 @@ const Banner = () => {
       justifyContent="center"
       alignItems="center"
     >
-      <Image
-        boxSize="100%"
-        src="static/fondo-biblioteca-min.jpg"
-        alt="banner"
-      />
+      <Image boxSize="100%" src={BannerImg} alt="banner" />
     </Flex>
   );
 };

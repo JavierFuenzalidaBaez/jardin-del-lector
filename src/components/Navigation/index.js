@@ -14,6 +14,9 @@ import DesktopNav from './DesktopNav';
 import MobileNav from './MobileNav';
 import ContainerBox from 'components/ContainerBox';
 
+//assets
+import Logo from 'assets/images/logo.png';
+
 export default function Navigation() {
   const { isOpen, onToggle } = useDisclosure();
 
@@ -52,12 +55,7 @@ export default function Navigation() {
           </Flex>
           <Flex flex={{ base: 1 }} justify={{ base: 'end', md: 'start' }}>
             <Stack direction="row">
-              <Image
-                boxSize="50px"
-                objectFit="cover"
-                src="/static/logo.png"
-                alt="logo"
-              />
+              <Image boxSize="50px" objectFit="cover" src={Logo} alt="logo" />
             </Stack>
 
             <Flex

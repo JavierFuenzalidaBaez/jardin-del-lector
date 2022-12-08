@@ -1,7 +1,7 @@
 import { Grid, GridItem } from '@chakra-ui/react';
 
 //data
-import books from 'resources/books.json';
+import books from 'resources/books';
 
 //components
 import CardBook from 'components/CardBook';

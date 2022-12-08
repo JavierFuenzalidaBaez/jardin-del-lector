@@ -1,6 +1,9 @@
 import { Box, Flex, Image, Stack, Text } from '@chakra-ui/react';
 import { EmailIcon, InfoIcon } from '@chakra-ui/icons';
 
+//assets
+import InstagramImg from 'assets/images/icono-instagram.png';
+
 const ContactInfo = () => {
   return (
     <Flex
@@ -35,8 +38,8 @@ const ContactInfo = () => {
             lg: '40px',
           }}
           objectFit="cover"
-          src="static/icono-instagram.png"
-          alt="Dan Abramov"
+          src={InstagramImg}
+          alt="logoInstagram"
         />
         <Text>@JardinDelLector</Text>
       </Stack>

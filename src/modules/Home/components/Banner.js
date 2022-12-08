@@ -1,5 +1,8 @@
 import { Flex, Image } from '@chakra-ui/react';
 
+//assets
+import banner from 'assets/images/fondo-min.png';
+
 const Banner = () => {
   return (
     <Flex
@@ -12,7 +15,7 @@ const Banner = () => {
           sm: '100%',
           lg: '75%',
         }}
-        src="static/fondo-min.png"
+        src={banner}
         alt="banner"
       />
     </Flex>

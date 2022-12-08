@@ -7,6 +7,7 @@ const CardBook = ({ title, url }) => {
         base: 300,
         lg: 300,
       }}
+      minW={{ base: 300 }}
       p={5}
       bg="bluishBlack.500"
       borderRadius={20}

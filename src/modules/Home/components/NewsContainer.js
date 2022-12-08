@@ -4,7 +4,7 @@ import { Flex } from '@chakra-ui/react';
 import CardBook from 'components/CardBook';
 
 //data
-import books from 'resources/books.json';
+import books from 'resources/books';
 
 const NewsContainer = () => {
   return (
