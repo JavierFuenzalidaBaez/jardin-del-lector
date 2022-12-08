@@ -6,23 +6,23 @@ import { Navigate } from 'react-router-dom';
 import homeRoutes from 'modules/Home/routes';
 import booksRoutes from 'modules/Books/routes';
 import businessRoutes from 'modules/Business/routes';
+import contactRoutes from 'modules/Contact/routes';
 
 //components
 import Layout from 'components/Layout';
-/* import NotFound from 'shared/components/NotFound'; */
-/* const Layout = lazy(() => import('Layouts/Admin'));
- */
+import NotFound from 'components/NotFound';
 export const privateRouter = [
   {
     path: '/',
     element: <Layout />,
     children: [
       { path: '/', element: <Navigate to="/home" replace /> },
-      /* { path: '*', element: <Navigate to="/404" /> },
-      { path: '404', element: <NotFound /> }, */
+      { path: '*', element: <Navigate to="/404" /> },
+      { path: '404', element: <NotFound /> },
       ...homeRoutes,
       ...booksRoutes,
       ...businessRoutes,
+      ...contactRoutes,
     ],
   },
 ];

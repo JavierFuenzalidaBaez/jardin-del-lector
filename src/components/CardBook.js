@@ -3,7 +3,7 @@ import { Box, Text, Image, Spacer } from '@chakra-ui/react';
 const CardBook = ({ title, url }) => {
   return (
     <Box
-      w={{
+      maxW={{
         base: 300,
         lg: 300,
       }}

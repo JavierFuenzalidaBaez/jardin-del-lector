@@ -10,6 +10,7 @@ const Layout = () => {
       <Navigation />
       <Spacer py={2} />
       <Outlet />
+      <Spacer pt={20} />
     </Box>
   );
 };
