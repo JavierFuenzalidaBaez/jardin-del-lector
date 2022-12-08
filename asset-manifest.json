@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/jardin-del-lector/static/css/main.7bfa2041.css",
+    "main.js": "/jardin-del-lector/static/js/main.4ba849e4.js",
+    "static/js/965.dd5df151.chunk.js": "/jardin-del-lector/static/js/965.dd5df151.chunk.js",
+    "static/js/435.2a329b51.chunk.js": "/jardin-del-lector/static/js/435.2a329b51.chunk.js",
+    "static/js/974.5a324a98.chunk.js": "/jardin-del-lector/static/js/974.5a324a98.chunk.js",
+    "static/js/957.28c021ac.chunk.js": "/jardin-del-lector/static/js/957.28c021ac.chunk.js",
+    "static/js/787.561dfdef.chunk.js": "/jardin-del-lector/static/js/787.561dfdef.chunk.js",
+    "index.html": "/jardin-del-lector/index.html",
+    "main.4ba849e4.js.map": "/jardin-del-lector/static/js/main.4ba849e4.js.map",
+    "965.dd5df151.chunk.js.map": "/jardin-del-lector/static/js/965.dd5df151.chunk.js.map",
+    "435.2a329b51.chunk.js.map": "/jardin-del-lector/static/js/435.2a329b51.chunk.js.map",
+    "974.5a324a98.chunk.js.map": "/jardin-del-lector/static/js/974.5a324a98.chunk.js.map",
+    "957.28c021ac.chunk.js.map": "/jardin-del-lector/static/js/957.28c021ac.chunk.js.map",
+    "787.561dfdef.chunk.js.map": "/jardin-del-lector/static/js/787.561dfdef.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.7bfa2041.css",
+    "static/js/main.4ba849e4.js"
+  ]
+}
