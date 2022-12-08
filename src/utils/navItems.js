@@ -16,19 +16,19 @@ const NAV_ITEMS = [
   }, */
   {
     label: 'INICIO',
-    href: '/home',
+    href: '#/home',
   },
   {
     label: 'EMPRESA',
-    href: '/business',
+    href: '#/business',
   },
   {
     label: 'LIBROS',
-    href: '/books',
+    href: '#/books',
   },
   {
     label: 'CONTACTO',
-    href: '/contact',
+    href: '#/contact',
   },
 ];
 
