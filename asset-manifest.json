@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/jardin-del-lector/static/css/main.7bfa2041.css",
-    "main.js": "/jardin-del-lector/static/js/main.ec9b64b8.js",
+    "main.js": "/jardin-del-lector/static/js/main.9035ac21.js",
     "static/js/268.9f17138e.chunk.js": "/jardin-del-lector/static/js/268.9f17138e.chunk.js",
-    "static/js/956.4a6e3316.chunk.js": "/jardin-del-lector/static/js/956.4a6e3316.chunk.js",
+    "static/js/938.223c8899.chunk.js": "/jardin-del-lector/static/js/938.223c8899.chunk.js",
     "static/js/974.15bd8b24.chunk.js": "/jardin-del-lector/static/js/974.15bd8b24.chunk.js",
-    "static/js/162.9961f41c.chunk.js": "/jardin-del-lector/static/js/162.9961f41c.chunk.js",
+    "static/js/605.32e704aa.chunk.js": "/jardin-del-lector/static/js/605.32e704aa.chunk.js",
     "static/js/787.561dfdef.chunk.js": "/jardin-del-lector/static/js/787.561dfdef.chunk.js",
+    "static/js/824.c4f7f1e6.chunk.js": "/jardin-del-lector/static/js/824.c4f7f1e6.chunk.js",
     "static/media/fondo-min.png": "/jardin-del-lector/static/media/fondo-min.d5132037fe11496a7804.png",
     "static/media/libro-3-min.jpg": "/jardin-del-lector/static/media/libro-3-min.fea28a5403a050132731.jpg",
     "static/media/fondo-biblioteca-min.jpg": "/jardin-del-lector/static/media/fondo-biblioteca-min.26ad2b1414027ba2a6ce.jpg",
@@ -19,15 +20,16 @@
     "static/media/libro-6-min.jpg": "/jardin-del-lector/static/media/libro-6-min.3309087d15a42bee1505.jpg",
     "static/media/icono-instagram.png": "/jardin-del-lector/static/media/icono-instagram.01e42aee6a3917eb67fb.png",
     "index.html": "/jardin-del-lector/index.html",
-    "main.ec9b64b8.js.map": "/jardin-del-lector/static/js/main.ec9b64b8.js.map",
+    "main.9035ac21.js.map": "/jardin-del-lector/static/js/main.9035ac21.js.map",
     "268.9f17138e.chunk.js.map": "/jardin-del-lector/static/js/268.9f17138e.chunk.js.map",
-    "956.4a6e3316.chunk.js.map": "/jardin-del-lector/static/js/956.4a6e3316.chunk.js.map",
+    "938.223c8899.chunk.js.map": "/jardin-del-lector/static/js/938.223c8899.chunk.js.map",
     "974.15bd8b24.chunk.js.map": "/jardin-del-lector/static/js/974.15bd8b24.chunk.js.map",
-    "162.9961f41c.chunk.js.map": "/jardin-del-lector/static/js/162.9961f41c.chunk.js.map",
-    "787.561dfdef.chunk.js.map": "/jardin-del-lector/static/js/787.561dfdef.chunk.js.map"
+    "605.32e704aa.chunk.js.map": "/jardin-del-lector/static/js/605.32e704aa.chunk.js.map",
+    "787.561dfdef.chunk.js.map": "/jardin-del-lector/static/js/787.561dfdef.chunk.js.map",
+    "824.c4f7f1e6.chunk.js.map": "/jardin-del-lector/static/js/824.c4f7f1e6.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.7bfa2041.css",
-    "static/js/main.ec9b64b8.js"
+    "static/js/main.9035ac21.js"
   ]
 }
