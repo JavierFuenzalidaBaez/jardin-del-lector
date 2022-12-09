@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/jardin-del-lector/static/css/main.7bfa2041.css",
-    "main.js": "/jardin-del-lector/static/js/main.9035ac21.js",
+    "main.js": "/jardin-del-lector/static/js/main.110c7623.js",
     "static/js/268.9f17138e.chunk.js": "/jardin-del-lector/static/js/268.9f17138e.chunk.js",
     "static/js/938.223c8899.chunk.js": "/jardin-del-lector/static/js/938.223c8899.chunk.js",
     "static/js/974.15bd8b24.chunk.js": "/jardin-del-lector/static/js/974.15bd8b24.chunk.js",
@@ -20,7 +20,7 @@
     "static/media/libro-6-min.jpg": "/jardin-del-lector/static/media/libro-6-min.3309087d15a42bee1505.jpg",
     "static/media/icono-instagram.png": "/jardin-del-lector/static/media/icono-instagram.01e42aee6a3917eb67fb.png",
     "index.html": "/jardin-del-lector/index.html",
-    "main.9035ac21.js.map": "/jardin-del-lector/static/js/main.9035ac21.js.map",
+    "main.110c7623.js.map": "/jardin-del-lector/static/js/main.110c7623.js.map",
     "268.9f17138e.chunk.js.map": "/jardin-del-lector/static/js/268.9f17138e.chunk.js.map",
     "938.223c8899.chunk.js.map": "/jardin-del-lector/static/js/938.223c8899.chunk.js.map",
     "974.15bd8b24.chunk.js.map": "/jardin-del-lector/static/js/974.15bd8b24.chunk.js.map",
@@ -30,6 +30,6 @@
   },
   "entrypoints": [
     "static/css/main.7bfa2041.css",
-    "static/js/main.9035ac21.js"
+    "static/js/main.110c7623.js"
   ]
 }
