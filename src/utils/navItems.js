@@ -16,19 +16,19 @@ const NAV_ITEMS = [
   }, */
   {
     label: 'INICIO',
-    href: 'jardin-del-lector/#/home',
+    href: '#/home',
   },
   {
     label: 'EMPRESA',
-    href: 'jardin-del-lector/#/business',
+    href: '#/business',
   },
   {
     label: 'LIBROS',
-    href: 'jardin-del-lector/#/books',
+    href: '#/books',
   },
   {
     label: 'CONTACTO',
-    href: 'jardin-del-lector/#/contact',
+    href: '#/contact',
   },
 ];
 
